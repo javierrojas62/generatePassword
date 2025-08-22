@@ -9,6 +9,7 @@
     padding: 12px 0;
     z-index: 9999;
 }
+
 .footer-content {
     display: flex;
     justify-content: center;
@@ -18,14 +19,17 @@
     color: var(--text-color);
     font-weight: 500;
 }
+
 .github-logo {
     color: var(--primary-color);
     font-size: 1.5rem;
     transition: color 0.2s;
 }
+
 .github-logo:hover {
     color: #333;
 }
+
 :root {
     --bg-color: #e0e5ec;
     --shadow-dark: #a3b1c6;
@@ -52,20 +56,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.8)" stroke-width="2"/><circle cx="12" cy="12" r="2" fill="rgba(255,255,255,0.8)"/></svg>') 12 12, auto;
 }
 
-button,
-.copy-btn,
-.theme-toggle,
-input[type="range"]::-webkit-slider-thumb {
-    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M8 3l4 8 5-5-4-8L8 3z" fill="rgba(102,126,234,0.8)"/><path d="M12 11l8 4-5 5-8-4 5-5z" fill="rgba(102,126,234,0.6)"/></svg>') 10 10, pointer;
-}
-
-a,
-label {
-    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M8 3l4 8 5-5-4-8L8 3z" fill="rgba(102,126,234,0.8)"/><path d="M12 11l8 4-5 5-8-4 5-5z" fill="rgba(102,126,234,0.6)"/></svg>') 10 10, pointer;
-}
 
 body {
     background: var(--bg-color);
@@ -437,6 +429,7 @@ input:checked+.slider {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
 /* Componente informativo debajo de la contraseña */
 .password-info {
     margin: 24px 0 0 0;
