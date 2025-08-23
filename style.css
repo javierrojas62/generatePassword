@@ -1,8 +1,6 @@
 /* Footer fijo abajo */
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: static;
     width: 100%;
     background: var(--bg-color);
     box-shadow: 0 -2px 12px var(--shadow-dark);
